@@ -11,7 +11,7 @@ npm init
 2. install initial dependencies
 
 ```sh
-npm install graphql cors express express-graphql nodemon --save
+npm install graphql cors express express-graphql nodemon json-server axios --save
 ```
 
 3. add below line in the Scripts tags in package.json to run program
@@ -26,7 +26,19 @@ npm install graphql cors express express-graphql nodemon --save
 npm run dev:server
 ```
 
-5. Queries
+5. To Run the Json server
+
+```sh
+npm run json:server
+```
+
+6. To check if Json-server running good
+
+```sh
+localhost:3000/customers
+```
+
+7. Queries
 
 ```sh
 #sample 1
@@ -38,7 +50,6 @@ npm run dev:server
   }
 }
 
-
 #sample2
 {
   customer(id:"4"){
@@ -47,4 +58,6 @@ npm run dev:server
     age
   }
 }
+
+#sample3
 ```
