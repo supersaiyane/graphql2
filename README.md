@@ -18,6 +18,7 @@ npm install graphql cors express express-graphql nodemon json-server axios --sav
 
 ```sh
 "dev:server": "nodemon server.js"
+"json:server": "json-server --watch data.json"
 ```
 
 4. To Run the dev server
