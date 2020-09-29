@@ -60,4 +60,19 @@ localhost:3000/customers
 }
 
 #sample3
-```
+mutation{
+  addCustomer(name:"Gurpreet",email:"gurpreet.singh@gmail.com",age:30){
+    id,
+    name,
+    email
+  }
+  
+  deleteCustomer(id:"3"){
+    id
+  }
+  
+  editCustomer(id:"2",age:60){
+    id,
+    age
+  }
+}
