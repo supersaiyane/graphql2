@@ -8,25 +8,25 @@
 npm init
 ```
 
-1. install initial dependencies
+2. install initial dependencies
 
 ```sh
 npm install graphql cors express express-graphql nodemon --save
 ```
 
-1. add below line in the Scripts tags in package.json to run program
+3. add below line in the Scripts tags in package.json to run program
 
 ```sh
 "dev:server": "nodemon server.js"
 ```
 
-1. To Run the dev server
+4. To Run the dev server
 
 ```sh
 npm run dev:server
 ```
 
-1. Queries
+5. Queries
 
 ```sh
 #sample 1
